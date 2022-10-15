@@ -1,0 +1,15 @@
+/**********Header *******/
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img.logo {
+    width:6%;
+    margin-left: 5%;
+}
+
+
