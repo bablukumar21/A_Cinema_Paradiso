@@ -50,3 +50,73 @@ header .side-head .option p {
     top: 14%;
     left: 6%;
 } 
+
+.main-image .text h1 {
+    font-size: 90px;
+    margin: 0;
+    font-weight: bold;
+}
+main-image .text p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.main-image .text button {
+    font-size: 19px;
+    background-color: rgba(255, 255, 255, 0%);
+    margin-top: 8%;
+    border: 3px solid rgba(0, 84, 105, 100%);
+    padding: 2% 12%;
+    border-radius: 22px;
+}
+
+.main-image .card img.fav {
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+
+
+.list {
+    margin: auto 5%;
+}
+
+.list .left {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% auto;
+}
+
+.list .left .newly-rel {
+    display: flex;
+    width: 28%;
+    align-items: center;
+}
+
+.list .left .newly-rel hr {
+    transform: rotate(180deg);
+    width: 13%;
+}
+
+.list .left .newly-rel .icon {
+    display: flex;
+    width: 7%;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+
+.list ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+}
+
+.list li {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+
